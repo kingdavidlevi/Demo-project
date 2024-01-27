@@ -1,0 +1,32 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+.WorkSansFont {
+  font-family: 'Work Sans', sans-serif;
+  
+  /* Other styling... */
+}
+.signup-div{
+  width: 90%;
+   
+}
+
+
+@media (min-width: 1280px) {
+  .signup-div{
+      width: 85%;
+  }
+}
+/*@font-face {
+    font-family: 'Work Sans';
+   src: url('fonts/worksans-regular.woff') format('woff')
+
+}
+
+
+.font-sans {
+     font-family: 'Work Sans', sans-serif;
+   }*/
