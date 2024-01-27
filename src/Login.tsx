@@ -16,7 +16,7 @@ const  Login : React.FC = () => {
 
 
     return(
-     <div className="bg-white signup-div m-auto ">
+     <div className="bg-white signup-div fixed m-auto ">
      
  
      <header className="flex  justify-between signup-div fixed">
